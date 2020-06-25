@@ -5,7 +5,6 @@ courses=int(input("Enter the number of courses: "))
 goats=[]
 for i in range(goatsnum):
 	goats.append(int(input("Enter the weight of goat #{} ".format(i+1))))
-boatlenght=1
 totalgoatweight = sum(goats)
 goats.sort(reverse=True) 
 finalboatweight=-1
@@ -17,5 +16,3 @@ while i < goatsnum:
 				finalboatweight=sum(x)
 	i=i+1
 print("The boat weight must be: {:d}".format(finalboatweight))
-		
-#print goats(itertools.permutations([1,2,3,4], boatlength))
