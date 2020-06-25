@@ -53,9 +53,9 @@ for row in range(rows):
 		if map[row][column] == 'o':
 			healthystraws += 1
 
-for row in reversed(range(rows)):
-	print(map[row])
-print("Where: ")
-print("x - Decayed Strawberries")
-print("o - Healthy Strawberries")
-print("Number of healthy strawberries:{:d}".format(healthystraws))
+#for row in reversed(range(rows)):
+	#print(map[row])
+#print("Where: ")
+#print("x - Decayed Strawberries")
+#print("o - Healthy Strawberries")
+print("{:d}".format(healthystraws))
