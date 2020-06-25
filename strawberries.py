@@ -4,14 +4,14 @@ decayed = []
 counter = 1
 counter2 = 0
 counter3 = 0
-inputdata = input("Въведете редове, колони и дни\n").split()
+inputdata = input("Въведете редове, колони и дни\n").split(",")
 rows = int(inputdata[0])
 columns = int(inputdata[1])
 days = int(inputdata[2])
 strawberry1 = [0, 0]
 strawberry2 = [0, 0]
-strawberry1 = input("Въведете местоположението на първата ягодка -> ред колона\n").split()
-strawberry2 = input("Въведете местоположението на втората ягодка -> ред колона\n").split()
+strawberry1 = input("Въведете местоположението на първата ягодка -> ред колона\n").split(",")
+strawberry2 = input("Въведете местоположението на втората ягодка -> ред колона\n").split(",")
 
 row1 = int(strawberry1[0])-1
 col1 = int(strawberry1[1])-1
